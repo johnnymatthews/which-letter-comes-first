@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    padding-top: 50%;
+    width: 100%; 
+    height: auto;
+    display: table;
+    font-size: 128px;
+}
+
+#left-letter-text {
+    padding-top: 5%;
+    color: black;
+}
+
+#right-letter-text {
+    padding-top: 5%;
+    color: white;
+}
+
+#left-letter-holder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color:white;
+}
+
+#left-letter-holder:hover {
+    background-color: hotpink; 
+}
+
+#right-letter-holder {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0; 
+    background-color:black;
+}
+
+#right-letter-holder:hover {
+    background-color: indigo; 
+}
