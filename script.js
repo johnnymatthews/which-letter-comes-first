@@ -24,11 +24,8 @@ function paint_letters(left_text, right_text) {
 
 //  Get user's input and determine if they're correct.
 function get_user_input(side_clicked, element_clicked) {
-    console.log("User clicked:", side_clicked);
-
     // Find out which letter is the lowest
     let correct_letter;
-    console.log(left_letter, right_letter);
     if (left_letter.position < right_letter.position) {
         correct_letter = "left";
     } else {
