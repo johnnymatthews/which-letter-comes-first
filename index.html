@@ -8,12 +8,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body onload="main()">
-        <div id="left-letter-holder">
-            <p id="left-letter-text">A</p>
-        </div>
-        <div id="right-letter-holder">
-            <p id="right-letter-text">B</p>
-        </div>
+        <main id="main">
+            <div id="left-letter-holder" onclick="get_user_input('left', this)">
+                <p id="left-letter-text">A</p>
+            </div>
+            <div id="right-letter-holder" onclick="get_user_input('right', this)">
+                <p id="right-letter-text">B</p>
+            </div>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
