@@ -11,10 +11,6 @@ p {
     padding-top: 5%;
 }
 
-p:hover {
-    font-weight: bold;
-}
-
 #left-letter-text {
     color: black;
 }
@@ -32,6 +28,10 @@ p:hover {
     background-color:white;
 }
 
+#left-letter-holder:hover {
+    background: yellow;
+}
+
 #right-letter-holder {
     position: absolute;
     left: 50%;
@@ -39,6 +39,10 @@ p:hover {
     bottom: 0;
     right: 0; 
     background-color:black;
+}
+
+#right-letter-holder:hover {
+    background: royalblue;
 }
 
 .answer_true {
