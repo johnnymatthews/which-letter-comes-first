@@ -5,6 +5,7 @@ body {
     height: auto;
     display: table;
     font-size: 128px;
+    overflow: hidden;
 }
 
 p {
